@@ -6,6 +6,7 @@
 <img src="https://img.shields.io/github/repo-size/SonyTV-Bryson/bryson-hub?color=%23FF9900&logo=GitHub" alt="GitHub Repo Size" />
 <a href="https://discord.gg/gCSwXAnsA5"><img src="https://img.shields.io/discord/878500084025810974?color=%23FF9900&label=discord&logo=Discord" alt="Discord Members"></a>
 <img src="https://img.shields.io/github/commit-activity/m/SonyTV-Bryson/bryson-hub?color=%23FF9900&logo=GitHub" alt="Commit Activity" />
+<img src="https://img.shields.io/tokei/lines/github/SonyTV-Bryson/bryson-hub?color=%23FF9900" alt="Total Lines" />
 </p>
 
 <p align="center">A streaming service like no other</p>
