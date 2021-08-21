@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/commit-activity/m/SonyTV-Bryson/bryson-hub?color=%23FF9900&logo=GitHub" alt="Commit Activity" />
 </p>
 
-<p align="center">A streaming service like not other</p>
+<p align="center">A streaming service like no other</p>
 <p align="center">Combine media from multiple sources to create playlists, and watch them with your friends.</p>
 
 ## 👨‍💻 Developlment
