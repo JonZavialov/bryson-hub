@@ -1,6 +1,7 @@
 <h1 align="center">
   <img src="https://github.com/SonyTV-Bryson/bryson-stream/blob/main/logo.png?raw=true" width="224px"/><br/>
 </h1>
+![GitHub repo size](https://img.shields.io/github/repo-size/SonyTV-Bryson/bryson-hub?color=%23FF9900&logo=GitHub&style=plastic)
 <p align="center">A streaming service like not other</p>
 <p align="center">Combine media from multiple sources to create playlists, and watch them with your friends.</p>
 
