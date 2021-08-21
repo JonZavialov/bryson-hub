@@ -39,4 +39,9 @@
 
 body {
     background-color: black;
+    font-family: "Lato", sans-serif;
+}
+
+.aboutus {
+  background-color: #1B1B1B;
 }
