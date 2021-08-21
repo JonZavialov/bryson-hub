@@ -1,4 +1,4 @@
 <h1 align="center">
-  <img src="filler" width="224px"/><br/>
+  <img src="https://github.com/SonyTV-Bryson/bryson-stream/blob/main/logo.png?raw=true" width="224px"/><br/>
   Bryson Hub
 </h1>
