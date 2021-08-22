@@ -67,12 +67,22 @@ body {
   size: 100%;
 }
 
+.upper-header{
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
 .container-header {
-  font-size: 30px;
+  font-size: 45px;
+  padding-top:0;
+  margin-bottom:0;
+  margin : 0;
 }
 
 .container-lower-header {
-  font-size: 25px;
+  font-size: 35px;
+  margin : 0;
+  padding-top:0;
 }
 
 .header-button {
@@ -80,7 +90,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
