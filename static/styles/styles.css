@@ -93,3 +93,12 @@ body {
   background-color: black;
   color: white;
 }
+
+.mainpage-article{
+  display: inline;
+  color: white;
+}
+
+.discord {
+  float: right;
+}

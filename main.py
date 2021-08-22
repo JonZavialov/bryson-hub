@@ -12,6 +12,7 @@ def aboutus():
 
 @app.route("/play")
 def play():
-    return render_template('play.html')
+    id = request.args.get('id', default = "", type = str)
+    return render_template('play.html', id=id)
 
 app.run(host = "0.0.0.0", port = 25565)
