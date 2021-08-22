@@ -16,15 +16,17 @@
     <a href="/aboutus">About Us</a>
   </div>
   <div class="main">
-      <h1 style="color: white;">Watch A Youtube Video</h1>
-      <hr style="text-align:left;margin-left:0;" color="#FF9900" width="30%">
-      <br>
-      <form action="/parse" method="get" id="url-form">
-          <label style="color: white;" for="url">URL:</label><br>
-          <input type="text" id="url" name="url" placeholder="video url"><br>
-      </form>
-
-      <button type="submit" form="url-form" value="Submit">Submit</button>
+    <p id="args">{{ url }}</p>
+    <script>
+      window.onload=function(){
+        url = document.getElementById("args")
+        parseURL(url.innerHTML)
+      }
+    </script>
+    <p style="color: white;">
+        Parsing url...<br>
+        this should not take longer than a few seconds.
+    </p>
   </div>
 </body>
 </html>

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
     <script src="{{url_for('static', filename='index.js')}}"></script>
-    <title>About Us</title>
+    <title>Play</title>
 </head>
 <body>
   <div class="sidenav">
@@ -16,15 +16,14 @@
     <a href="/aboutus">About Us</a>
   </div>
   <div class="main">
-      <h1 style="color: white;">Watch A Youtube Video</h1>
-      <hr style="text-align:left;margin-left:0;" color="#FF9900" width="30%">
-      <br>
-      <form action="/parse" method="get" id="url-form">
-          <label style="color: white;" for="url">URL:</label><br>
-          <input type="text" id="url" name="url" placeholder="video url"><br>
-      </form>
-
-      <button type="submit" form="url-form" value="Submit">Submit</button>
+    <p id="args">{{ id }}</p>
+    <script>
+      window.onload=function(){
+        id = document.getElementById("args")
+        checkID(id.innerHTML)
+      }
+    </script>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ id }}?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </body>
 </html>
