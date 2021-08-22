@@ -112,3 +112,8 @@ body {
 .discord {
   float: right;
 }
+
+.play-input {
+  background-color: #FF9900;
+  padding: 5px 5px;
+}
