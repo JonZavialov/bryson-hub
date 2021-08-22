@@ -15,4 +15,8 @@ def play():
     id = request.args.get('id', default = "", type = str)
     return render_template('play.html', id=id)
 
+@app.route("/404")
+def notFound():
+    return render_template('404.html')
+
 app.run(host = "0.0.0.0", port = 25565)

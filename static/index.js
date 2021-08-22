@@ -1,7 +1,8 @@
+const PORT = 25565
+const URL = `http://localhost:${PORT}`
+
 function checkForID(id){
     if(!id){
-        console.log("no id")
-    }else{
-        console.log("id is present")
+        window.location.replace("/404");
     }
 }
